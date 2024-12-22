@@ -1,18 +1,14 @@
 package SortingAlgorithms;
 
+import java.util.Arrays;
+
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr={2,4,1,3,5};
-        printArray(arr);
+        System.out.println(Arrays.toString(arr));
         bubbleSort(arr);
-        printArray(arr);
+        System.out.println(Arrays.toString(arr));
 
-    }
-    public static void printArray(int[] nums){
-        for(int i=0;i<nums.length;i++){
-            System.out.print(nums[i]);
-        }
-        System.out.println();
     }
     public static void swap(int[] nums,  int i,int j){
         int temp=nums[i];
