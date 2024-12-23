@@ -16,16 +16,25 @@ public class BubbleSort {
         nums[j]=temp;
     }
     public static void bubbleSort(int[] nums){
+
         boolean noSwap;
         int N = nums.length;
+
         for (int i = 0; i < N; i++) {
             noSwap = false;
+
+            // At a time place the largest bubble at the end one by one
             for (int j = 0; j < N - i - 1; j++) {
                 if (nums[j] > nums[j + 1]) {
+                    //swap it with the last element
                     swap(nums,j, j + 1);
+
+                    //to ensure swap is done in the current pass
                     noSwap = true;
                 }
             }
+
+            // If no swaps in current pass then break
             if (noSwap == false) {
                 break;
             }
