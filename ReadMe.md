@@ -29,8 +29,8 @@
 - Quick Sort
 
 ### Searching
-- Linear Search
-- Binary Search
+- Linear Search [Learn more](./SearchingAlgorithms/LinearSearch.java)
+- Binary Search [Learn more](./SearchingAlgorithms/BinarySearch.java)
 
 ### Bit Manipulation
 - Basics (AND, OR, XOR, Left/Right Shifts)
