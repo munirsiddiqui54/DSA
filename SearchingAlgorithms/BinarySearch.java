@@ -7,7 +7,7 @@ import static SortingAlgorithms.BubbleSort.bubbleSort;
 public class BinarySearch {
     public static void main(String[] args) {
 
-        int target=4;
+        int target=7;
         int[] nums={1,4,2,90,43,12,8};
 
         // For Binary Search Array Must be sorted
@@ -19,7 +19,11 @@ public class BinarySearch {
         System.out.println(index>=0?index:"Not Found");
     }
     public static int binarySearch(int[] nums,int target,int start,int end){
-        int index=-1;
+        if(start>=end){
+            return -1; // Not Found
+            // return start; if floor is to be return
+            // return start-1; if ceil is to be return
+        }
         int mid=(start+end)/2;
 
         if(nums[mid]==target){
@@ -27,12 +31,10 @@ public class BinarySearch {
         }
         else if(nums[mid]>target){
             // Search on Left Side
-            index=binarySearch(nums,target,start,mid);
+            return binarySearch(nums,target,start,mid);
         }else{
             // Search on Right Side
-            index=binarySearch(nums,target,mid,end);
+            return binarySearch(nums,target,mid+1,end);
         }
-
-        return index;
     }
 }
