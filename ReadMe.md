@@ -24,13 +24,27 @@
 - Bubble Sort [Learn more](./SortingAlgorithms/BubbleSort.java) 
 - Selection Sort [Learn more](./SortingAlgorithms/SelectionSort.java)
 - Insertion Sort [Learn more](./SortingAlgorithms/InsertionSort.java)
-- Cyclic Sort [Learn more](./SortingAlgorithms/CyclicSort.java)
+- **Cyclic Sort**
+   - Algorithm [Learn more](./SortingAlgorithms/CyclicSort.java)
+   - Problems
+      - [Disappeared Numbers](./SortingProblems/DisappearedNumbers.java)
+      - [Find All Duplicates](./SortingProblems/FindAllDuplicates.java)
+      - [First Missing Positive](./SortingProblems/FirstMissingPositive.java)
+      - [Missing Number](./SortingProblems/MissingNumber.java)
+      - [Set Mismatch](./SortingProblems/SetMismatch.java)
 - Merge Sort
 - Quick Sort
 
 ### Searching
-- Linear Search [Learn more](./SearchingAlgorithms/LinearSearch.java)
-- Binary Search [Learn more](./SearchingAlgorithms/BinarySearch.java)
+
+- **Linear Search**
+   - Algorithm [Learn more](./SearchingAlgorithms/LinearSearch.java)
+   - Problems 
+      - [Even Number Digits](./SearchingProblems/EvenNumberDigits.java)
+- **Binary Search**
+   - Algorithm [Learn more](./SearchingAlgorithms/BinarySearch.java)
+   - Problems
+      - []
 
 ### Bit Manipulation
 - Basics (AND, OR, XOR, Left/Right Shifts)
