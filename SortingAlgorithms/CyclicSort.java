@@ -7,7 +7,7 @@ public class CyclicSort {
         int[] arr={3,2,4,5,1};
 
         // for cyclic sort: array must be in range [1,N]
-        sort(arr);
+        cyclicSort(arr);
 
         System.out.println(Arrays.toString(arr));
     }
@@ -16,7 +16,7 @@ public class CyclicSort {
         arr[i]=arr[j];
         arr[j]=temp;
     }
-    static void sort(int[] arr){
+    public static void cyclicSort(int[] arr){
         int i=0;
 
         while(i<arr.length){
