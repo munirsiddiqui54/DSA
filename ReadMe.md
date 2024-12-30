@@ -41,8 +41,10 @@
    - Algorithm [Learn more](./SearchingAlgorithms/LinearSearch.java)
    - Problems 
       - [Even Number Digits](./SearchingProblems/EvenNumberDigits.java)
+      - [Richest Wealth](./SearchingProblems/RichestWealth.java)
 - **Binary Search**
    - Algorithm [Learn more](./SearchingAlgorithms/BinarySearch.java)
+   - Order Agnostic Binary Search [Learn more](./SearchingAlgorithms/BinarySearch.java)
    - Problems
       - []
 
