@@ -11,7 +11,7 @@ public class BinarySearch {
         int[] nums={1,4,2,90,43,12,8};
 
         // For Binary Search Array Must be sorted
-//        bubbleSort(nums);
+        bubbleSort(nums);
         System.out.println(Arrays.toString(nums));
 
         int index=binarySearch(nums,target);

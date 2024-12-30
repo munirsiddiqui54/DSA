@@ -7,13 +7,13 @@ public class RichestWealth {
     }
     public static int maximumWealth(int[][] accounts) {
         int maxSum=-1;
-        for(int i=0;i<accounts.length;i++){
-            int sum=0;
-            for(int j=0;j<accounts[i].length;j++){
-                sum+=accounts[i][j];
+        for (int[] account : accounts) {
+            int sum = 0;
+            for (int j = 0; j < account.length; j++) {
+                sum += account[j];
             }
-            if(sum>maxSum){
-                maxSum=sum;
+            if (sum > maxSum) {
+                maxSum = sum;
             }
         }
         return maxSum;
